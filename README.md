@@ -12,3 +12,9 @@ The environment is a simulated set of 20 robot arms, where the objective is to ?
 One of the earliest appearances of Deep Reinforcement Learning was the DQN model, which uses a neural network function approximator to estimate the action-value 
 function for an environment with a discrete number of possible actions (see: https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf).  This worked extremely well, but would fail in the case of a continuous action space with a non-denumerable set of possible actions, as in the case of a robot determining how much torque to apply to keep its arm stable.
 The solution proposed by a team at Google Deepmind (see: https://arxiv.org/pdf/1509.02971.pdf) is to use a second neural network which takes the state as the input and directly outputs the optimal action, which then gets fed into the larger Q network along with the state.  
+
+
+# Models
+There are two neural networks in this agent, the Actor which chooses the actions & the Critic which evaluates the state-value.
+The Actor consists of only a couple fully-connected layers, while the Critic is a bit larger.
+
