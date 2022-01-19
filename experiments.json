@@ -1,0 +1,212 @@
+{
+    "exp_details": [
+        {
+            "version": 1,
+            "actor_path": "actor_checkpoint_251eps_v1.pth",
+            "critic_path": "critic_checkpoint_251eps_v1.pth",
+            "hypers": {
+                "BATCH_SIZE": 64,
+                "BUFFER_SIZE": 1000000,
+                "GAMMA": 0.99,
+                "LR_ACTOR": 0.0001,
+                "LR_CRITIC": 0.001,
+                "MU": 0.0,
+                "N_UPDATES": 10,
+                "SIGMA": 0.2,
+                "TAU": 0.001,
+                "THETA": 0.15,
+                "UPDATE_EVERY": 20,
+                "WEIGHT_DECAY": 0
+            },
+            "clock_time": 2864.807131789,
+            "Episodes": 251,
+            "final_score": 12.695999716222286,
+            "max_score": 14.776999669708312
+        },
+        {
+            "version": 2,
+            "actor_path": "actor_checkpoint_251eps_v2.pth",
+            "critic_path": "critic_checkpoint_251eps_v2.pth",
+            "hypers": {
+                "BATCH_SIZE": 128,
+                "BUFFER_SIZE": 1000000,
+                "GAMMA": 0.99,
+                "LR_ACTOR": 0.0001,
+                "LR_CRITIC": 0.001,
+                "MU": 0.0,
+                "N_UPDATES": 10,
+                "SIGMA": 0.2,
+                "TAU": 0.001,
+                "THETA": 0.15,
+                "UPDATE_EVERY": 20,
+                "WEIGHT_DECAY": 0
+            },
+            "clock_time": 3603.7781556580003,
+            "Episodes": 251,
+            "final_score": 18.49449958661571,
+            "max_score": 21.642999516241254
+        },
+        {
+            "version": 4,
+            "actor_path": "actor_checkpoint_251eps_v4.pth",
+            "critic_path": "critic_checkpoint_251eps_v4.pth",
+            "hypers": {
+                "BATCH_SIZE": 128,
+                "BUFFER_SIZE": 1000000,
+                "GAMMA": 0.99,
+                "LR_ACTOR": 0.0001,
+                "LR_CRITIC": 0.002,
+                "MU": 0.0,
+                "N_UPDATES": 10,
+                "SIGMA": 0.2,
+                "TAU": 0.001,
+                "THETA": 0.15,
+                "UPDATE_EVERY": 20,
+                "WEIGHT_DECAY": 0
+            },
+            "clock_time": 3612.7973095280004,
+            "Episodes": 251,
+            "final_score": 6.618499852064997,
+            "max_score": 7.748999826796353
+        },
+        {
+            "version": 5,
+            "actor_path": "actor_checkpoint_251eps_v5.pth",
+            "critic_path": "critic_checkpoint_251eps_v5.pth",
+            "hypers": {
+                "BATCH_SIZE": 128,
+                "BUFFER_SIZE": 1000000,
+                "GAMMA": 0.99,
+                "LR_ACTOR": 0.0002,
+                "LR_CRITIC": 0.001,
+                "MU": 0.0,
+                "N_UPDATES": 10,
+                "SIGMA": 0.2,
+                "TAU": 0.001,
+                "THETA": 0.15,
+                "UPDATE_EVERY": 20,
+                "WEIGHT_DECAY": 0
+            },
+            "clock_time": 3624.8874036079997,
+            "Episodes": 251,
+            "final_score": 24.49449945250526,
+            "max_score": 26.770499401632698
+        },
+        {
+            "version": 6,
+            "actor_path": "actor_checkpoint_500eps_v6.pth",
+            "critic_path": "critic_checkpoint_500eps_v6.pth",
+            "hypers": {
+                "BATCH_SIZE": 128,
+                "BUFFER_SIZE": 1000000,
+                "GAMMA": 0.99,
+                "LR_ACTOR": 0.0002,
+                "LR_CRITIC": 0.001,
+                "MU": 0.0,
+                "N_UPDATES": 10,
+                "SIGMA": 0.2,
+                "TAU": 0.001,
+                "THETA": 0.15,
+                "UPDATE_EVERY": 20,
+                "WEIGHT_DECAY": 0
+            },
+            "clock_time": 7424.984812323,
+            "Episodes": 500,
+            "final_score": 27.76399937942624,
+            "max_score": 31.090999305061995
+        },
+        {
+            "version": 7,
+            "actor_path": "actor_checkpoint_251eps_v7.pth",
+            "critic_path": "critic_checkpoint_251eps_v7.pth",
+            "hypers": {
+                "BATCH_SIZE": 256,
+                "BUFFER_SIZE": 1000000,
+                "GAMMA": 0.99,
+                "LR_ACTOR": 0.0002,
+                "LR_CRITIC": 0.001,
+                "MU": 0.0,
+                "N_UPDATES": 10,
+                "SIGMA": 0.2,
+                "TAU": 0.001,
+                "THETA": 0.15,
+                "UPDATE_EVERY": 20,
+                "WEIGHT_DECAY": 0
+            },
+            "clock_time": 9397.262950977,
+            "Episodes": 251,
+            "final_score": 24.434499453846364,
+            "max_score": 31.96099928561598
+        },
+        {
+            "version": 999,
+            "actor_path": "actor_checkpoint_5eps_v999.pth",
+            "critic_path": "critic_checkpoint_5eps_v999.pth",
+            "save_path": "DDPG_v999_5episodes.pth.tar",
+            "hypers": {
+                "BATCH_SIZE": 256,
+                "BUFFER_SIZE": 1000000,
+                "GAMMA": 0.99,
+                "LR_ACTOR": 0.0002,
+                "LR_CRITIC": 0.001,
+                "MU": 0.0,
+                "N_UPDATES": 10,
+                "SIGMA": 0.2,
+                "TAU": 0.001,
+                "THETA": 0.15,
+                "UPDATE_EVERY": 20,
+                "WEIGHT_DECAY": 0
+            },
+            "clock_time": 132.837282705,
+            "Episodes": 5,
+            "final_score": 1.1694999738596379,
+            "max_score": 1.1694999738596379
+        },
+        {
+            "version": 9999,
+            "actor_path": "actor_checkpoint_5eps_v9999.pth",
+            "critic_path": "critic_checkpoint_5eps_v9999.pth",
+            "save_path": "DDPG_v9999_10episodes.pth.tar",
+            "hypers": {
+                "BATCH_SIZE": 256,
+                "BUFFER_SIZE": 1000000,
+                "GAMMA": 0.99,
+                "LR_ACTOR": 0.0002,
+                "LR_CRITIC": 0.001,
+                "MU": 0.0,
+                "N_UPDATES": 10,
+                "SIGMA": 0.2,
+                "TAU": 0.001,
+                "THETA": 0.15,
+                "UPDATE_EVERY": 20,
+                "WEIGHT_DECAY": 0
+            },
+            "clock_time": 125.50717264800005,
+            "Episodes": 5,
+            "final_score": 2.3989999463781713,
+            "max_score": 2.3989999463781713
+        },
+        {
+            "version": 8,
+            "save_path": "DDPG_v8_300episodes.pth.tar",
+            "hypers": {
+                "BATCH_SIZE": 256,
+                "BUFFER_SIZE": 1000000,
+                "GAMMA": 0.99,
+                "LR_ACTOR": 0.0002,
+                "LR_CRITIC": 0.001,
+                "MU": 0.0,
+                "N_UPDATES": 10,
+                "SIGMA": 0.1,
+                "TAU": 0.001,
+                "THETA": 0.15,
+                "UPDATE_EVERY": 20,
+                "WEIGHT_DECAY": 0
+            },
+            "clock_time": 6044.890460896,
+            "Episodes": 300,
+            "final_score": 37.97599915117026,
+            "max_score": 38.78549913307652
+        }
+    ]
+}
